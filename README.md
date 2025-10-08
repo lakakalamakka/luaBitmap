@@ -12,6 +12,6 @@ To load this module in a lua program you must use `dofile("luaBitmap.lua")` (or 
 4. use `rectf(x1,y1,x2,y2,r,g,b)` to draw a filled rectangle
 5. use `circ(x,y,r,g,b,cr,s,csx,csy)` to draw an outlined circle. `s` stands for segments
 6. use `circf(x,y,r,g,b,cr,csx,csy)` to draw a filled circle.
-7. use `render(filename)` to render the bitmap file.
+7. use `render(filename)` to render the bitmap file. (`.bmp` file format is automatically added by the function)
 -- Optional: use `image={} for i=1,sx*sy do image[i]={255,255,255} end` to clear the image (additionally with any RGB value you'd like).
 For both circle fuctions, `csx` and `csy` are scale factors, allowing for ellipses.
