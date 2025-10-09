@@ -1,5 +1,6 @@
 # luaBitmap
 Lua module that helps with exporting/formatting bitmap images and drawing
+
 This is able to:
 - draw seperate pixels
 - draw lines
